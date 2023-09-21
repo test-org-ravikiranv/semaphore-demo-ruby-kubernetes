@@ -8,7 +8,7 @@ blocks:
   - name: Install dependencies
     task:
       jobs:
-        - name: bundle install
+        - name: bundle install 1
           commands:
             - checkout
             - cache restore
